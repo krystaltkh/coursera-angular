@@ -52,7 +52,7 @@ const DISHES: Dish[] = [
 })
 export class MenuComponent implements OnInit {
 
-  dishes = DISHES;
+  dishes: Dish[] = DISHES;
 
   selectedDish = DISHES[0];
 
